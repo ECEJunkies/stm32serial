@@ -6,7 +6,7 @@ Using this code
 
 Simple. Add serial.h and serial.c to your keil project and print to erial port like so:
 
-#include "serial.h"
+	#include "serial.h"
 
 	int main(void) {
 	  serial_init();
