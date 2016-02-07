@@ -8,11 +8,11 @@ Simple. Add serial.h and serial.c to your keil project and print to erial port l
 
 #include "serial.h"
 
-int main(void) {
-  serial_init();
-  sputs("This is a string for your serial port!\r\n");
-  //sputc("A"); // You can also print one character
-}
+	int main(void) {
+	  serial_init();
+	  sputs("This is a string for your serial port!\r\n");
+	  //sputc("A"); // You can also print one character
+	}
 
 Information
 -----------
